@@ -12,7 +12,7 @@ This is a fully responsive frontend clone of the official [Tesla.com] homepage b
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 (Flexbox, Grid, Media Queries)
+- CSS3
 - Vanilla JavaScript
 
 
