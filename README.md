@@ -15,5 +15,4 @@ This is a fully responsive frontend clone of the official [Tesla.com] homepage b
 - CSS3 (Flexbox, Grid, Media Queries)
 - Vanilla JavaScript
 
-## 📁 Folder Structure
 
