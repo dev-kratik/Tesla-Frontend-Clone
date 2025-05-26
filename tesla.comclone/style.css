@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gotham SSm, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+body{
+    background-image: url("image/Homepage-Model-Y-Desktop-Global.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logo{
+    width: 140px;
+    height: auto;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.main-menu a{
+    position: relative;
+    margin-right:32px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(23, 26, 32);
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 10px;
+}
+.main-menu a:hover{
+    background-color: rgb(188,204,212);
+    border-radius: 4px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.side-menu{
+    display: flex;
+    margin-right: 18px;
+}
+
+.side-menu a{
+    width: 25px;
+    display: flex;
+    margin-left:5px ;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(23, 26, 32);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.side-menu a:hover{
+    background-color: rgb(188,204,212);
+    padding: 5px;
+    border-radius: 4px;
+}
+.shop-submenu{
+    display: flex;
+    justify-content: center;
+    box-sizing: 100%;
+    background-color: white;
+    height: 0px;
+    overflow: hidden;
+    transition: ease-in-out 0.4s;
+    
+}
+.resources ,.locationservices ,.company{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.resources a ,.locationservices a,.company a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.resources p ,.locationservices p,.company p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(92, 94, 98);
+}
+#discover-submenu a:hover{
+    text-decoration: underline 2px;
+}
+#charging-submenu a:hover{
+    text-decoration: underline 2px;
+}
+#discover-submenu{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    height:0px;
+    overflow: hidden;
+    transition: ease-in-out 0.4s;
+}
+#charging-submenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    height:0px;
+    overflow: hidden;
+    transition: ease-in-out 0.4s;
+    
+}
+.text-section{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(92, 94, 98, 0.805) ;
+    
+    
+}
+.text-section a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 50px; 
+}
+.imagesec{
+    display: flex;
+    flex-direction: row;
+}
+.image1 ,.image2 , .image3{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.links a{
+    padding: 8px;
+    color: black;
+    font-size: small;
+}
+.imagesec ,.text-section{
+    margin-top: 50px;
+}
+
+
+
+
