@@ -1,6 +1,6 @@
 # 🚗 Tesla.com Frontend Clone
 
-This is a fully responsive frontend clone of the official [Tesla.com] homepage built using HTML, CSS, and JavaScript.
+This is a fully responsive frontend clone of the Tesla.com homepage built using HTML, CSS, and JavaScript.
 
 ## 🌟 Features
 
